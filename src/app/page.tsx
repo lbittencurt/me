@@ -1,22 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { IconContext } from 'react-icons'
 import { HiOutlineEnvelope } from 'react-icons/hi2'
 import { SiAmazonaws, SiReact, SiNodedotjs, SiTypescript, SiRuby, SiDocker } from 'react-icons/si'
-{/* <IconContext.Provider value={{ color: "blue", className: "global-class-name" }}>
-  <div>
-    <FaFolder />
-  </div>
-</IconContext.Provider>; */}
-
-{/* <Image
-  src="/vercel.svg"
-  alt="Vercel Logo"
-  className="dark:invert"
-  width={100}
-  height={24}
-  priority
-/> */}
 
 export default function Home() {
   return (
@@ -80,7 +65,7 @@ export default function Home() {
           '
         >
           <Image
-            src="/me.jpeg"
+            src="https://pub-ba6b0506e0b84a5aba44020e756a6feb.r2.dev/me.jpeg"
             alt="Lucas Bittencurt photo"
             className="
               rounded-full
@@ -202,7 +187,7 @@ export default function Home() {
                 '
               >
                 <Image
-                  src="/nearform_logo.png"
+                  src="https://pub-ba6b0506e0b84a5aba44020e756a6feb.r2.dev/nearform_logo.png"
                   alt="NearForm logo"
                   width={130}
                   height={25}
@@ -225,7 +210,7 @@ export default function Home() {
                 '
               >
                 <Image
-                  src="/upwork_logo.png"
+                  src="https://pub-ba6b0506e0b84a5aba44020e756a6feb.r2.dev/upwork_logo.png"
                   alt="Upwork logo"
                   width={90}
                   height={20}
